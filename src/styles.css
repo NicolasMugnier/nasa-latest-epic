@@ -1,0 +1,133 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.fixed-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.fixed-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.fixed-header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.fixed-header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.fixed-header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+body {
+    padding-top: 60px;
+}
+
+#carousel-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#main-image {
+    width: 512px;
+    max-width: 512px;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid black;
+}
+
+.thumbnail {
+    width: 10vw;
+    height: 10vw;
+    margin: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.thumbnail:hover {
+    border-color: #252525;
+}
+
+#about {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+  
+footer a {
+    color: #fff;
+}
+  
+footer a:hover {
+    color: grey;
+}
+  
+footer .info {
+    text-align: left;
+    margin: 20px;
+}
+
+@media (max-width: 768px) {
+    #main-image {
+        width: 80%;
+        max-width: 400px;
+    }
+
+    .thumbnail {
+        width: 10vw;
+        height: 10vw;
+    }
+}
+
+@media (max-width: 480px) {
+    #main-image {
+        width: 90%;
+        max-width: 350px;
+    }
+
+    .thumbnail {
+        width: 10vw;
+        height: 10vw;
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    #main-image {
+        width: 75%;
+        max-width: 450px;
+    }
+
+    .thumbnail {
+        width: 10vw;
+        height: 10vw;
+    }
+}
