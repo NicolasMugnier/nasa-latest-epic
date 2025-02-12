@@ -1,3 +1,17 @@
 {
-    "test": "coucou"
-}
+    "accountAssociation": {
+      "header": "eyJmaWQiOjkwODUxNCwidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweEVlODZjMDBFYmU1Njk1NGMxMDJlQTIwNzQ1NjZhZGEwQzIzNTU2RmIifQ",
+      "payload": "eyJkb21haW4iOiJuYXNhLWxhdGVzdC1lcGljLmFueXZvaWQueHl6In0",
+      "signature": "MHg4OGIyOWY4ZjMxNTI0YTAyYzUyNDYyMDFkM2U3MjE1ZDg4NjQ5YWUxZjZhYzM4YzUxZTNjNjg3MDg3ZTQyNDBiNzI3OThjODViM2YzYzE3MmE3ZTU3YjQ3NzhiYTNmMDExOGM5NWMwZDM0NGFhZTJjNjFiYWMyNmNmM2JiYjZmOTFi"
+    },
+    "frame": {
+      "version": "1",
+      "name": "EPIC earth",
+      "iconUrl": "https://nasa-latest-epic.anyvoid.xyz/splash.png",
+      "homeUrl": "https://nasa-latest-epic.anyvoid.xyz",
+      "imageUrl": "https://nasa-latest-epic.anyvoid.xyz/main.png",
+      "buttonTitle": "Check this out",
+      "splashImageUrl": "https://nasa-latest-epic.anyvoid.xyz/splash.png",
+      "splashBackgroundColor": "#131313"
+    }
+  }

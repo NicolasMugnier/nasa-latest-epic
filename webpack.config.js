@@ -13,7 +13,7 @@ export default {
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/",
+    publicPath: "./",
   },
   devServer: {
     static: {
@@ -33,8 +33,9 @@ export default {
     new CopyWebpackPlugin({
         patterns: [
           { from: "src/.well-known", to: ".well-known" },
-          { from: "src/data.json", to: "data.json" },
           { from: "src/styles.css", to: "styles.css" },
+          { from: "src/main.png", to: "main.png" },
+          { from: "src/splash.png", to: "splash.png" }
         ]
       }),
   ],
