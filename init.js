@@ -1,0 +1,1 @@
+import FrameSDK from"@farcaster/frame-sdk";function initFarcaster(){setTimeout((()=>{FrameSDK.actions.ready(),console.log("Farcaster Frame is ready!")}),500)}initFarcaster();
