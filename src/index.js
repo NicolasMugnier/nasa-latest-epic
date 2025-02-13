@@ -31,7 +31,6 @@ document.addEventListener("DOMContentLoaded", async function() {
             img.src = image.thumbnail;
             img.className = "thumbnail";
             img.onclick = () => {
-                //mainImage.src = url.replace('thumbs', 'png').replace('\.jpg', '\.png');
                 mainImage.src = image.url;
             };
             thumbnailsContainer.appendChild(img);

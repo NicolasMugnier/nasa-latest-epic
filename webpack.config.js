@@ -35,7 +35,8 @@ export default {
           { from: "src/.well-known", to: ".well-known" },
           { from: "src/styles.css", to: "styles.css" },
           { from: "src/main.png", to: "main.png" },
-          { from: "src/splash.png", to: "splash.png" }
+          { from: "src/splash.png", to: "splash.png" },
+          { from: "src/CNAME", to: "CNAME", "toType": "file" },
         ]
       }),
   ],
