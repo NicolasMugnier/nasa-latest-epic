@@ -7,11 +7,11 @@
     "frame": {
       "version": "1",
       "name": "EPIC earth",
-      "iconUrl": "https://nasa-latest-epic.anyvoid.xyz/splash.png",
+      "iconUrl": "https://nasa-latest-epic.anyvoid.xyz/main.png",
       "homeUrl": "https://nasa-latest-epic.anyvoid.xyz",
       "imageUrl": "https://nasa-latest-epic.anyvoid.xyz/main.png",
-      "buttonTitle": "Check this out",
-      "splashImageUrl": "https://nasa-latest-epic.anyvoid.xyz/splash.png",
+      "buttonTitle": "Read",
+      "splashImageUrl": "https://nasa-latest-epic.anyvoid.xyz/main.png",
       "splashBackgroundColor": "#131313"
     }
   }
